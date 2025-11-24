@@ -6,6 +6,12 @@ import image1 from '../../assets/images/1.png'
 function Step1({ nextStep }) {
   return (
     <div className="step-container">
+      {/* Banner Black Friday */}
+      <div className="promo-banner">
+        <span className="promo-icon">🔥</span>
+        <span className="promo-text">PROMOÇÃO DE BLACK FRIDAY SOMENTE ESSES ÚLTIMOS DIAS</span>
+      </div>
+      
       <h1 className="step-title">
         <strong>Descubra</strong> o passo a passo que já fez <strong>mulheres comuns</strong> ganharem <strong>mais de R$8.000</strong> vendendo <strong>panetones gourmet</strong> no Natal!
       </h1>
